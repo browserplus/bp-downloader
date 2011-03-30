@@ -5,10 +5,10 @@ how to build:
  cd externals && ruby build.rb && cd ..
  rm -rf build && mkdir build && cd build
  cmake ../src
- make (devenv DownloaderService.sln on Windows)
+ make (devenv DownloaderRuby.sln on Windows)
  cd test && ruby ./runtests.rb && cd ..
  
-A directory Archiver should be generated which is your service ready to 
+A directory Downloader should be generated which is your service ready to 
 be installed using the BrowserPlus SDK:
  
 http://browserplus.yahoo.com/developer/service/sdk/
